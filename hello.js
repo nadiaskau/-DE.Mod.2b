@@ -1,12 +1,13 @@
 var express = require('express')
 var app = express()
+var cors = require('cors')
 
+app.use(cors({credentials: true, origin: true}));
 
-var cors = require('cors');
-
+app.options('*', cors());
 app.set('port', (process.env.PORT || 5500))
 app.use(express.static(__dirname + '/public'))
-app.use(cors);
+
 
 
 

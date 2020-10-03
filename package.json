@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/nadiaskau/DE.Mod.2b/issues"
   },
-  "homepage": "https://github.com/nadiaskau/DE.Mod.2b#readme"
+  "homepage": "https://github.com/nadiaskau/DE.Mod.2b#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
 }
