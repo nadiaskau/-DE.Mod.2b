@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/nadiaskau/DE.Mod.2b.git"
   },
+  "keywords": [
+    "node"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
