@@ -5,7 +5,7 @@ var cors = require("cors");
 app.use(cors({ credentials: true, origin: true }));
 
 app.options("*", cors());
-app.set("port", process.env.PORT || 5000);
+app.set("port", process.env.PORT || 5500);
 app.use(express.static(__dirname + "/public"));
 
 app.get("/", function (request, response) {
